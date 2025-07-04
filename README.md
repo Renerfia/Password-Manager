@@ -17,7 +17,7 @@ A simple and secure command-line password manager for Windows.
 
 ## How to Use
 
-1. **Download and run [`main.exe`](#)** (after building with PyInstaller, or run `main.py` with Python).
+1. **Download and run [`main.exe`]
 2. Follow the on-screen instructions to set up your master password and manage your passwords.
 
 ---
