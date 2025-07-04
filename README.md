@@ -1,18 +1,26 @@
 # Password Manager
 
-A simple command-line password manager for Windows, written in Python.
+A simple and secure command-line password manager for Windows.
+
+---
 
 ## Features
 
-- Protects all your passwords with a master password (hashed for security)
-- Add, view, and manage passwords for different services
-- Change or delete your master password anytime
-- All data is stored locally and securely in a SQLite database
+- 🔒 **Master Password Protection:** All your passwords are secured with a master password (hashed for safety).
+- 📝 **Add New Passwords:** Save service credentials (service name, username, email, password) to a local SQLite database.
+- 👀 **View Passwords:** Display all saved passwords in the terminal.
+- 🔄 **Change Master Password:** Set a new master password at any time.
+- ❌ **Delete Master Password:** Clear the master password (forces setup on next run).
+- 🖥️ **Simple CLI Menu:** Easy-to-use text-based interface.
+
+---
 
 ## How to Use
 
-1. **Download and run [`main.exe`]
+1. **Download and run [`main.exe`](#)** (after building with PyInstaller, or run `main.py` with Python).
 2. Follow the on-screen instructions to set up your master password and manage your passwords.
+
+---
 
 ## Notes
 
@@ -21,4 +29,9 @@ A simple command-line password manager for Windows, written in Python.
 - **Do not share `passwords.db` or `master.hash` with anyone.**
 - If you want to reset everything, just delete these two files.
 
+---
+
+## License
+
+MIT License
 
