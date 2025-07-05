@@ -14,7 +14,10 @@ A simple and secure command-line password manager for Windows.
 - 🖥️ **Simple CLI Menu:** Easy-to-use text-based interface.
 
 ---
+##Sample:
+![image](https://github.com/user-attachments/assets/96f15c4c-2415-4195-80f0-8cf3403e2841)
 
+----
 ## How to Use
 
 1. **Download and run [`main.exe`]
