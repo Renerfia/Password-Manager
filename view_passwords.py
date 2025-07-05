@@ -10,7 +10,7 @@ def view_passwords():
     rows = cursor.fetchall()
     if rows:
         for row in rows:
-            print(f"Service: {row[0]}, User Name: {row[1]}, Email: {row[2]}, Password: {row[3]}")
+            print(f"ID: {row[0]}, Service: {row[1]}, User Name: {row[2]}, Email: {row[3]}, Password: {row[4]}")
     else:
         print("No passwords found.")
     conn.close()
