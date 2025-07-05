@@ -1,4 +1,4 @@
-('g:\\password manager\\build\\main\\PYZ-00.pyz',
+('G:\\password manager\\build\\main\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__future__.py',
@@ -104,7 +104,7 @@
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\decimal.py',
    'PYMODULE'),
   ('delete_master_password',
-   'g:\\password manager\\delete_master_password.py',
+   'G:\\password manager\\delete_master_password.py',
    'PYMODULE'),
   ('dis',
    'C:\\Users\\Kazi Imran '
@@ -387,7 +387,7 @@
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\selectors.py',
    'PYMODULE'),
   ('set_up_master_password',
-   'g:\\password manager\\set_up_master_password.py',
+   'G:\\password manager\\set_up_master_password.py',
    'PYMODULE'),
   ('shutil',
    'C:\\Users\\Kazi Imran '
@@ -474,10 +474,10 @@
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\parse.py',
    'PYMODULE'),
   ('user_password_setup',
-   'g:\\password manager\\user_password_setup.py',
+   'G:\\password manager\\user_password_setup.py',
    'PYMODULE'),
-  ('verification', 'g:\\password manager\\verification.py', 'PYMODULE'),
-  ('view_passwords', 'g:\\password manager\\view_passwords.py', 'PYMODULE'),
+  ('verification', 'G:\\password manager\\verification.py', 'PYMODULE'),
+  ('view_passwords', 'G:\\password manager\\view_passwords.py', 'PYMODULE'),
   ('zipfile',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py',

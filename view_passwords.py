@@ -3,14 +3,14 @@ import sqlite3
 def view_passwords():
     conn = sqlite3.connect("passwords.db")
     cursor = conn.cursor()
-
-    cursor.execute("SELECT * FROM passwords")
+    # Ensure the table exists
+   
+    
+    cursor.execute("SELECT service, user_name, email, password FROM passwords")
     rows = cursor.fetchall()
-
-    if not rows:
-        print("No passwords found.")
-    else:
+    if rows:
         for row in rows:
-            print(f"Service: {row[1]}, User Name: {row[2]}, Email: {row[3]}, Password: {row[4]}")
-
+            print(f"Service: {row[0]}, User Name: {row[1]}, Email: {row[2]}, Password: {row[3]}")
+    else:
+        print("No passwords found.")
     conn.close()

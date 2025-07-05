@@ -1,5 +1,5 @@
-(['g:\\password manager\\main.py'],
- ['g:\\password manager'],
+(['G:\\password manager\\main.py'],
+ ['G:\\password manager'],
  [],
  [('C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_pyinstaller',
@@ -453,14 +453,6 @@
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ast.py',
    'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stringprep.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_py_abc.py',
-   'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tracemalloc.py',
@@ -469,10 +461,18 @@
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_colorize.py',
    'PYMODULE'),
-  ('delete_master_password',
-   'g:\\password manager\\delete_master_password.py',
+  ('stringprep',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stringprep.py',
    'PYMODULE'),
-  ('view_passwords', 'g:\\password manager\\view_passwords.py', 'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('delete_master_password',
+   'G:\\password manager\\delete_master_password.py',
+   'PYMODULE'),
+  ('view_passwords', 'G:\\password manager\\view_passwords.py', 'PYMODULE'),
   ('sqlite3',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sqlite3\\__init__.py',
@@ -498,10 +498,10 @@
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sqlite3\\dbapi2.py',
    'PYMODULE'),
   ('user_password_setup',
-   'g:\\password manager\\user_password_setup.py',
+   'G:\\password manager\\user_password_setup.py',
    'PYMODULE'),
   ('set_up_master_password',
-   'g:\\password manager\\set_up_master_password.py',
+   'G:\\password manager\\set_up_master_password.py',
    'PYMODULE'),
   ('bcrypt',
    'C:\\Users\\Kazi Imran '
@@ -519,7 +519,7 @@
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\getpass.py',
    'PYMODULE'),
-  ('verification', 'g:\\password manager\\verification.py', 'PYMODULE')],
+  ('verification', 'G:\\password manager\\verification.py', 'PYMODULE')],
  [('python313.dll',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll',
@@ -583,47 +583,79 @@
  [],
  [],
  [('base_library.zip',
-   'g:\\password manager\\build\\main\\base_library.zip',
+   'G:\\password manager\\build\\main\\base_library.zip',
    'DATA')],
- [('_weakrefset',
+ [('sre_parse',
    'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_weakrefset.py',
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_parse.py',
    'PYMODULE'),
-  ('locale',
+  ('warnings',
    'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\locale.py',
-   'PYMODULE'),
-  ('heapq',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\heapq.py',
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\warnings.py',
    'PYMODULE'),
   ('operator',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\operator.py',
    'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\copyreg.py',
+   'PYMODULE'),
   ('collections',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\collections\\__init__.py',
-   'PYMODULE'),
-  ('keyword',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\keyword.py',
-   'PYMODULE'),
-  ('genericpath',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\genericpath.py',
    'PYMODULE'),
   ('posixpath',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\posixpath.py',
    'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('traceback',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\traceback.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_constants.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_collections_abc.py',
+   'PYMODULE'),
+  ('locale',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\locale.py',
+   'PYMODULE'),
   ('linecache',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\linecache.py',
    'PYMODULE'),
-  ('codecs',
+  ('_weakrefset',
    'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\codecs.py',
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_weakrefset.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('reprlib',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\reprlib.py',
+   'PYMODULE'),
+  ('types',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\types.py',
+   'PYMODULE'),
+  ('sre_compile',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_compile.py',
+   'PYMODULE'),
+  ('keyword',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\keyword.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\Kazi Imran '
@@ -1113,9 +1145,13 @@
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('enum',
+  ('functools',
    'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\enum.py',
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\functools.py',
+   'PYMODULE'),
+  ('io',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\io.py',
    'PYMODULE'),
   ('abc',
    'C:\\Users\\Kazi Imran '
@@ -1125,37 +1161,21 @@
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\weakref.py',
    'PYMODULE'),
-  ('_collections_abc',
+  ('ntpath',
    'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_collections_abc.py',
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ntpath.py',
    'PYMODULE'),
-  ('reprlib',
+  ('heapq',
    'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\reprlib.py',
-   'PYMODULE'),
-  ('types',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\types.py',
-   'PYMODULE'),
-  ('warnings',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\warnings.py',
-   'PYMODULE'),
-  ('sre_compile',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_compile.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('sre_parse',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_parse.py',
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\heapq.py',
    'PYMODULE'),
   ('stat',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stat.py',
+   'PYMODULE'),
+  ('enum',
+   'C:\\Users\\Kazi Imran '
+   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\enum.py',
    'PYMODULE'),
   ('re._parser',
    'C:\\Users\\Kazi Imran '
@@ -1176,26 +1196,6 @@
   ('re',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\re\\__init__.py',
-   'PYMODULE'),
-  ('functools',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\functools.py',
-   'PYMODULE'),
-  ('ntpath',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ntpath.py',
-   'PYMODULE'),
-  ('io',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\io.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\traceback.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\Kazi Imran '
-   'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\copyreg.py',
    'PYMODULE'),
   ('os',
    'C:\\Users\\Kazi Imran '
