@@ -106,6 +106,7 @@
   ('delete_master_password',
    'G:\\password manager\\delete_master_password.py',
    'PYMODULE'),
+  ('delete_password', 'G:\\password manager\\delete_password.py', 'PYMODULE'),
   ('dis',
    'C:\\Users\\Kazi Imran '
    'Hossain\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\dis.py',
